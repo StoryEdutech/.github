@@ -47,6 +47,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: StoryEdutech/kobetsuba_database_backup
+          token: ${{ secrets.DB_TOKEN }}
           path: kobetsuba_database_backup
       - name: setup db users
         run: mysql -u root --password="root"< kobetsuba_database_backup/zero.sql
