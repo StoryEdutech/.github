@@ -1,0 +1,5 @@
+{
+    "name": "BuildServer",
+    "description": "本サーバに近しい環境を整備する",
+    "iconName": "example-icon"
+}
